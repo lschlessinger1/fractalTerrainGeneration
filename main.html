@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>WebGL Terrain Generator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <style type="text/css">
+     
+    </style>
+</head>
+<body>
+    <script src="js/three.min.js"></script>
+    <script src="js/controls/OrbitControls.js"></script>
+    <script src="js/Detector.js"></script>
+    <script type='text/javascript' src='js/gui/dat.gui.min.js'></script>
+    <script src="js/Terrain.js"></script>
+    <script src="js/fractalTerrainGen.js"></script>
+
+    <div id="info"><p>This WebGL rendering implementation of a terrain generator was based on a <a href="http://www.playfuljs.com/realistic-terrain-in-130-lines/">3d-projected terrain map on a canvas element implementation</a>. It uses the <a href="https://en.wikipedia.org/wiki/Diamond-square_algorithm">Diamond Square Algorithm</a> to procedurally generate terrain.</p></div>
+    
+    <div id="container"></div>>
+</body>
+</html>
